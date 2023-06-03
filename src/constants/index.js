@@ -15,7 +15,6 @@ import {
     git,
     figma,
     docker,
-    meta,
     java,
     python,
     firebase,
@@ -23,12 +22,9 @@ import {
     bootstrap,
     ieee,
     kbinfospace,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    notesapp,
+    sagasuanime,
+    moviedb,
     threejs,
   } from "../assets";
   
@@ -49,13 +45,13 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Frontend Developer",
       icon: web,
     },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
+    // {
+    //   title: "React Native Developer",
+    //   icon: mobile,
+    // },
     {
       title: "Backend Developer",
       icon: backend,
@@ -107,10 +103,10 @@ import {
       name: "Firebase",
       icon: firebase,
     },
-    {
-      name: "Bootstrap",
-      icon: bootstrap,
-    },
+    // {
+    //   name: "Bootstrap",
+    //   icon: bootstrap,
+    // },
     {
       name: "Node JS",
       icon: nodejs,
@@ -127,10 +123,10 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
     {
       name: "opencv",
       icon: opencv,
@@ -220,9 +216,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Notes App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "The MERN app with JWT authentication and admin control is a secure and efficient application designed for employees in a company to write and manage their notes. It utilizes the MERN stack and offers user registration and authentication, role-based access control, note creation and management, an admin dashboard for monitoring and administrative tasks.",
       tags: [
         {
           name: "react",
@@ -233,45 +229,24 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "nodejs",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: notesapp,
+      source_code_link: "https://github.com/SaquibShakeel/notes-app-frontend",
     },
     {
-      name: "Job IT",
+      name: "Sagasu Anime",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to search anime and view its detailed information. It is a simple application with nice design that fetches the data from GraphQL api.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "graphQL-api",
           color: "green-text-gradient",
         },
         {
@@ -279,8 +254,29 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: sagasuanime,
+      source_code_link: "https://github.com/SaquibShakeel/SagasuAnime",
+    },
+    {
+      name: "MovieDB",
+      description:
+        "A simple web application stores and display movie's name and synopsis. A demonstration of CRUD operation using firebase realtime database.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: moviedb,
+      source_code_link: "https://github.com/SaquibShakeel/MovieDB",
     },
   ];
   

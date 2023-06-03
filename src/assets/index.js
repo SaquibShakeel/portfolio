@@ -26,16 +26,12 @@ import firebase from "./tech/firebase.png";
 import opencv from "./tech/opencv.png";
 import bootstrap from "./tech/bootstrap.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import ieee from "./company/ieee.png";
 import kbinfospace from "./company/kbinfospace.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import notesapp from "./notesapp.jpeg";
+import sagasuanime from "./sagasuanime.jpeg";
+import moviedb from "./moviedb.jpeg";
 
 export {
   logo,
@@ -64,13 +60,9 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
   ieee,
   kbinfospace,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  notesapp,
+  sagasuanime,
+  moviedb,
 };
