@@ -25,11 +25,13 @@ import python from "./tech/python.png";
 import firebase from "./tech/firebase.png";
 import opencv from "./tech/opencv.png";
 import bootstrap from "./tech/bootstrap.png";
+import springboot from "./tech/springio-icon.svg";
 
 import ieee from "./company/ieee.png";
 import kbinfospace from "./company/kbinfospace.png";
 
 import notesapp from "./notesapp.jpeg";
+import joblisting from "./jobListing.png";
 import sagasuanime from "./sagasuanime.jpeg";
 import moviedb from "./moviedb.jpeg";
 
@@ -60,9 +62,11 @@ export {
   tailwind,
   typescript,
   threejs,
+  springboot,
   ieee,
   kbinfospace,
   notesapp,
+  joblisting,
   sagasuanime,
   moviedb,
 };
