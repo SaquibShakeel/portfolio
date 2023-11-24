@@ -23,6 +23,7 @@ import {
   ieee,
   kbinfospace,
   notesapp,
+  petsconnectapp,
   joblisting,
   sagasuanime,
   moviedb,
@@ -50,13 +51,13 @@ const services = [
     title: "Frontend Developer",
     icon: web,
   },
-  // {
-  //   title: "React Native Developer",
-  //   icon: mobile,
-  // },
   {
     title: "Backend Developer",
     icon: backend,
+  },
+  {
+    title: "Java Developer",
+    icon: mobile,
   },
   {
     title: "Content Creator",
@@ -145,6 +146,20 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Fullstack Development Engineer Intern",
+    company_name: "KBInfospace, Virtual",
+    icon: kbinfospace,
+    iconBg: "#E6DEDD",
+    date: "June 2023 - Aug 2022",
+    points: [
+      "Developed multiple static React websites for various clients, catering to their unique design and functionality requirements",
+      "Led the front-end development of a dynamic website for a startup company, showcasing their products and services in an engaging manner.",
+      "Utilized Apollo Client for effcient data fetching and state management.",
+      "Collaborated with the backend team to define GraphQL schemas.",
+      " Used SEO strategies to increase traffic and reach on websites.",
+    ],
+  },
+  {
     title: "Front-end Development Engineer Intern",
     company_name: "Glassball, Virtual",
     icon: null,
@@ -153,18 +168,6 @@ const experiences = [
     points: [
       "Developing and Maintaining a react app to edit, extract table/text from files like excel, pdf or image.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-    ],
-  },
-  {
-    title: "Fullstack Development Engineer Intern",
-    company_name: "KBInfospace, Virtual",
-    icon: kbinfospace,
-    iconBg: "#E6DEDD",
-    date: "April 2022 - June 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Developed multiplr end-to-end websites for clients and implemnting responsive design and ensuring cross-browser compatibility.",
-      "Used SEO strategies to increase traffic and reach on websites.",
     ],
   },
   {
@@ -222,7 +225,27 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Notes App",
+    name: "Pets Connect App",
+    description: "This app is developed on the MERN stack, enables users to effortlessly track and manage their pets. Using a QR code system, the app allows users to generate a code for their pet, facilitating location tracking without GPS. When scanned, the QR code prompts the scanner to share their location with the pet owner, enhancing the user experience for seamless pet monitoring.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: petsconnectapp,
+    source_code_link: ["https://github.com/SaquibShakeel/pets-connect-app"],
+  },
+  {
+    name: "Customer Notes App",
     description:
       "The MERN app with JWT authentication and admin control is a secure and efficient application designed for employees in a company to write and manage their notes. It utilizes the MERN stack and offers user registration and authentication, role-based access control, note creation and management, an admin dashboard for monitoring and administrative tasks.",
     tags: [
@@ -240,10 +263,7 @@ const projects = [
       },
     ],
     image: notesapp,
-    source_code_link: [
-      "https://github.com/SaquibShakeel/notes-app-frontend",
-      "https://github.com/SaquibShakeel/notes-app-backend",
-    ],
+    source_code_link: ["https://github.com/SaquibShakeel/customer-notes-app"],
   },
   {
     name: "Job Listings App",
@@ -264,10 +284,7 @@ const projects = [
       },
     ],
     image: joblisting,
-    source_code_link: [
-      "https://github.com/SaquibShakeel/jobListing-frontend",
-      "https://github.com/SaquibShakeel/jobListing",
-    ],
+    source_code_link: ["https://github.com/SaquibShakeel/job-listing-app"],
   },
   {
     name: "Sagasu Anime",

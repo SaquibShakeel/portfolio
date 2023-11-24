@@ -25,7 +25,7 @@ import python from "./tech/python.png";
 import firebase from "./tech/firebase.png";
 import opencv from "./tech/opencv.png";
 import bootstrap from "./tech/bootstrap.png";
-import springboot from "./tech/springio-icon.svg";
+import springboot from "./tech/spring-boot-logo.png";
 
 import ieee from "./company/ieee.png";
 import kbinfospace from "./company/kbinfospace.png";
@@ -34,6 +34,7 @@ import notesapp from "./notesapp.jpeg";
 import joblisting from "./jobListing.png";
 import sagasuanime from "./sagasuanime.jpeg";
 import moviedb from "./moviedb.jpeg";
+import petsconnectapp from "./petsconnectappimage.jpeg";
 
 export {
   logo,
@@ -69,4 +70,5 @@ export {
   joblisting,
   sagasuanime,
   moviedb,
+  petsconnectapp,
 };
